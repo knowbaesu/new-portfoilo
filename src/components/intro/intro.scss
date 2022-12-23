@@ -26,6 +26,7 @@
     }
     .right{
         flex: 0.5;
+        position: relative;
             .wrapper{
                 widows: 100%;
                 height: 100%;
@@ -44,6 +45,9 @@
                 h3{
                     font-size: 30px
                 }
+            }
+            a {
+                position: absolute;
             }
        
     }
