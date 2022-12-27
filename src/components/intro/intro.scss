@@ -56,10 +56,12 @@
 
                 @keyframes arrowBlink {
 
+                    100%{
+                        opacity: 0;
+                    }
                 }
                     
                 }
             }
        
     }
-}
