@@ -1,6 +1,13 @@
+import { useEffect } from "react"
 import "./intro.scss"
 
 export default function Intro() {
+
+  const textRef = useRef();
+  useEffect(()=>{
+
+  },[])
+
   return (
     <div className="intro" id="intro">
       <div className="left">
@@ -12,7 +19,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>hi there</h2>
           <h1>Park ji soo</h1>
-          <h3>Freelance<span></span></h3>
+          <h3>Freelance<span>Designer</span></h3>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />
