@@ -5,6 +5,7 @@ export default function Intro() {
 
   const textRef = useRef();
   useEffect(()=>{
+    console.log(textRef)
 
   },[])
 
