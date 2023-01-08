@@ -5,7 +5,10 @@ export default function Intro() {
 
   const textRef = useRef();
   useEffect(()=>{
-    console.log(textRef)
+    Init(textRef.current, {
+      showCursor: false,
+      strings:["개발자","디자이너"]
+    })
 
   },[])
 
