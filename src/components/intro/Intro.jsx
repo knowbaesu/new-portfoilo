@@ -7,8 +7,10 @@ export default function Intro() {
   useEffect(()=>{
     Init(textRef.current, {
       showCursor: false,
-      strings:["개발자","디자이너"]
-    })
+      strings:["개발자","디자이너"],
+      backSpeed:69,
+      backDelay:1500,
+    },[])
 
   },[])
 
