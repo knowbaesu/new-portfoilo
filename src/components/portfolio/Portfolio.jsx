@@ -8,8 +8,6 @@ export default function Portfolio() {
         <li>Featured</li>
         <li>Web App</li>
         <li>Mobile App</li>
-        <li>Desing</li>
-        <li>Branding</li>
       </ul>
           </div>
   )
