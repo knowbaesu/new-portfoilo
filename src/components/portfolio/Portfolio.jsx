@@ -14,7 +14,7 @@ export default function Portfolio() {
       <div className="container">
         <div className="item">
           <img src="" alt="" />
-          <h3></h3>
+          <h3>Banking App</h3>
         </div>
       </div>
           </div>
