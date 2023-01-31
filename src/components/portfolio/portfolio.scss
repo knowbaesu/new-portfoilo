@@ -17,6 +17,10 @@
                 font-size: 12px;
                 margin-right: 5px;
                 padding: 0.7;
+
+                &.active {
+                    background-color: $mainColor;
+                }
             }
         }
 }
