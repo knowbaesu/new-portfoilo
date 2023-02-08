@@ -1,9 +1,9 @@
-import React from 'react';
+import React from './portfoliolist.scss';
 
-export default function PortfolioList(){
+export default function PortfolioList(title){
     return (
         <div>
-            
+            {title}
         </div>
     )
 }
