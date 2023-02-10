@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+
+.portfolioList{
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 0.7;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.active {
+        background-color: $mainColor;
+        color: white;;
+    }
+}
